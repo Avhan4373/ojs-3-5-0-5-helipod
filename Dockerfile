@@ -19,6 +19,14 @@ COPY overlay/ /var/www/html/
 COPY config.inc.php.template /opt/ojs/config.inc.php.template
 COPY render-config.php /opt/ojs/render-config.php
 COPY ojs-entrypoint.sh /usr/local/bin/ojs-entrypoint
+
+# Sitbehind reverse proxy (Cloudflare tunnel / nginx): teruskan X-Forwarded-Proto
+# ke PHP supaya OJS membuat URL https (mixed content) & cookie secure.
+RUN printf '%s\n' \
+        'SetEnvIf X-Forwarded-Proto "^https$" HTTPS=on' \
+        'PassEnv HTTPS' \
+        > /etc/apache2/conf-enabled/ojs-proxy.conf
+
 RUN chmod +x /usr/local/bin/ojs-entrypoint \
     && mkdir -p /seed /var/www/html/files /var/www/html/public /var/www/html/cache \
     && chown -R www-data:www-data \

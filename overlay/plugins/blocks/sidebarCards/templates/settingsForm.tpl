@@ -113,9 +113,9 @@
 								<label>{translate key="plugins.block.sidebarCards.field.image"}</label>
 								<input type="text" name="tools[{$smarty.foreach.toolsLoop.index}][image]" id="toolImage{$smarty.foreach.toolsLoop.index}" value="{$tool.image|escape}">
 								<div class="sc-upload-row">
-									<input type="file" class="sc-upload" data-target="toolImage{$smarty.foreach.toolsLoop.index}" accept="image/jpeg,image/png,image/gif,image/webp">
-									<span class="sc-upload-status" data-for="toolImage{$smarty.foreach.toolsLoop.index}"></span>
-									{if $tool.image}<img class="sc-preview" data-preview="toolImage{$smarty.foreach.toolsLoop.index}" src="{$tool.image|escape}" alt="">{/if}
+									<input type="file" class="sc-upload" data-target="tools[{$smarty.foreach.toolsLoop.index}][image]" accept="image/jpeg,image/png,image/gif,image/webp">
+									<span class="sc-upload-status" data-for="tools[{$smarty.foreach.toolsLoop.index}][image]"></span>
+									{if $tool.image}<img class="sc-preview" data-preview="tools[{$smarty.foreach.toolsLoop.index}][image]" src="{$tool.image|escape}" alt="">{/if}
 								</div>
 							</div>
 						</div>
@@ -164,9 +164,9 @@
 								<label>{translate key="plugins.block.sidebarCards.field.image"}</label>
 								<input type="text" name="customCards[{$smarty.foreach.customLoop.index}][image]" id="customImage{$smarty.foreach.customLoop.index}" value="{$card.image|escape}">
 								<div class="sc-upload-row">
-									<input type="file" class="sc-upload" data-target="customImage{$smarty.foreach.customLoop.index}" accept="image/jpeg,image/png,image/gif,image/webp">
-									<span class="sc-upload-status" data-for="customImage{$smarty.foreach.customLoop.index}"></span>
-									{if $card.image}<img class="sc-preview" data-preview="customImage{$smarty.foreach.customLoop.index}" src="{$card.image|escape}" alt="">{/if}
+									<input type="file" class="sc-upload" data-target="customCards[{$smarty.foreach.customLoop.index}][image]" accept="image/jpeg,image/png,image/gif,image/webp">
+									<span class="sc-upload-status" data-for="customCards[{$smarty.foreach.customLoop.index}][image]"></span>
+									{if $card.image}<img class="sc-preview" data-preview="customCards[{$smarty.foreach.customLoop.index}][image]" src="{$card.image|escape}" alt="">{/if}
 								</div>
 							</div>
 							<div class="sc-field sc-full">
@@ -236,7 +236,7 @@
 
 		function uploadField(input) {
 			var targetId = input.getAttribute('data-target');
-			var target = document.getElementById(targetId);
+			var target = document.querySelector('input[name="' + targetId + '"]');
 			if (!target || !input.files || !input.files.length) {
 				return;
 			}
@@ -304,8 +304,8 @@
 							'<input type="url" name="tools[' + index + '][url]" value=""></div>' +
 						'<div class="sc-field sc-full"><label>' + msg.image + '</label>' +
 							'<input type="text" name="tools[' + index + '][image]" id="toolImage' + index + '" value="">' +
-							'<div class="sc-upload-row"><input type="file" class="sc-upload" data-target="toolImage' + index + '" accept="image/jpeg,image/png,image/gif,image/webp">' +
-							'<span class="sc-upload-status" data-for="toolImage' + index + '"></span></div></div>' +
+							'<div class="sc-upload-row"><input type="file" class="sc-upload" data-target="tools[' + index + '][image]" accept="image/jpeg,image/png,image/gif,image/webp">' +
+							'<span class="sc-upload-status" data-for="tools[' + index + '][image]"></span></div></div>' +
 					'</div>' +
 				'</div>';
 		}
@@ -322,8 +322,8 @@
 							'<input type="url" name="customCards[' + index + '][url]" value=""></div>' +
 						'<div class="sc-field sc-full"><label>' + msg.image + '</label>' +
 							'<input type="text" name="customCards[' + index + '][image]" id="customImage' + index + '" value="">' +
-							'<div class="sc-upload-row"><input type="file" class="sc-upload" data-target="customImage' + index + '" accept="image/jpeg,image/png,image/gif,image/webp">' +
-							'<span class="sc-upload-status" data-for="customImage' + index + '"></span></div></div>' +
+							'<div class="sc-upload-row"><input type="file" class="sc-upload" data-target="customCards[' + index + '][image]" accept="image/jpeg,image/png,image/gif,image/webp">' +
+							'<span class="sc-upload-status" data-for="customCards[' + index + '][image]"></span></div></div>' +
 						'<div class="sc-field sc-full"><label>' + msg.content + '</label>' +
 							'<textarea name="customCards[' + index + '][content]"></textarea></div>' +
 						'<div class="sc-field sc-full"><label><input type="checkbox" name="customCards[' + index + '][enabled]" value="1" checked> ' + msg.enabled + '</label></div>' +

@@ -123,7 +123,7 @@ class SidebarCardsBlockPlugin extends BlockPlugin
         $popularEnabled = $this->boolSetting($contextId, 'popularEnabled', true);
 
         $displayPages = (string) ($this->getSetting($contextId, 'displayPages') ?? 'all');
-        if ($displayPages === 'home' && $request->getRequestedPage() !== 'index') {
+        if ($displayPages === 'home' && !in_array($request->getRequestedPage(), ['', 'index'], true)) {
             return '';
         }
 
