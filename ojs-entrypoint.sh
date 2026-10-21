@@ -22,9 +22,13 @@ OJS_BASE_URL="${OJS_BASE_URL:-https://${HELIPOD_PUBLIC_DOMAIN:?HELIPOD_PUBLIC_DO
 OJS_TIME_ZONE="${OJS_TIME_ZONE:-Asia/Jakarta}"
 OJS_REPOSITORY_ID="${OJS_REPOSITORY_ID:-ojs}"
 
-# allowed_hosts: the host name of the public URL.
+# allowed_hosts: the host name of the public URL (plus optional extra hosts).
 if [ -z "${OJS_ALLOWED_HOSTS:-}" ]; then
-    OJS_ALLOWED_HOSTS="[\"$(echo "${OJS_BASE_URL}" | sed -E 's#^https?://([^/:]+).*#\1#')\"]"
+    hosts="\"$(echo "${OJS_BASE_URL}" | sed -E 's#^https?://([^/:]+).*#\1#')\""
+    for extra in ${OJS_EXTRA_ALLOWED_HOSTS:-}; do
+        hosts="${hosts},\"${extra}\""
+    done
+    OJS_ALLOWED_HOSTS="[${hosts}]"
 fi
 
 export OJS_APP_KEY OJS_BASE_URL OJS_TIME_ZONE OJS_ALLOWED_HOSTS OJS_REPOSITORY_ID
