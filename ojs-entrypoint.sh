@@ -40,11 +40,20 @@ chown www-data:www-data "${CONF}"
 chmod 640 "${CONF}"
 
 # 2. wait for the database
+# The MySQL 8.4 image generates a self signed certificate, the client shipped
+# with this image (MariaDB) refuses it, so fall back to a plain connection.
 echo "[OJS] waiting for the database..."
+MYSQL_FLAGS=""
 db_ready=0
 for _ in $(seq 1 120); do
-    if MYSQL_PWD="${DB_PASSWORD}" mysql -h "${DB_HOST}" -u "${DB_USER}" "${DB_NAME}" \
+    if MYSQL_PWD="${DB_PASSWORD}" mysql -h "${DB_HOST}" -u "${DB_USER}" \
         -N -e "SELECT 1" >/dev/null 2>&1; then
+        db_ready=1
+        break
+    fi
+    if MYSQL_PWD="${DB_PASSWORD}" mysql -h "${DB_HOST}" -u "${DB_USER}" --skip-ssl \
+        -N -e "SELECT 1" >/dev/null 2>&1; then
+        MYSQL_FLAGS="--skip-ssl"
         db_ready=1
         break
     fi
@@ -55,9 +64,10 @@ if [ "${db_ready}" != "1" ]; then
     echo "[OJS] database is not reachable, giving up"
     exit 1
 fi
+echo "[OJS] database is reachable (mysql flags: '${MYSQL_FLAGS:-default}')"
 
 # 3. import the dump once (the volume keeps the data afterwards)
-if MYSQL_PWD="${DB_PASSWORD}" mysql -h "${DB_HOST}" -u "${DB_USER}" "${DB_NAME}" \
+if MYSQL_PWD="${DB_PASSWORD}" mysql -h "${DB_HOST}" -u "${DB_USER}" ${MYSQL_FLAGS} "${DB_NAME}" \
     -N -e "SELECT 1 FROM journals LIMIT 1" >/dev/null 2>&1; then
     echo "[OJS] database already contains the journal, skipping the import"
 else
@@ -65,7 +75,8 @@ else
         echo "[OJS] importing the database dump from ${SEED_DB_FILE}"
         zcat "${SEED_DB_FILE}" \
             | sed "s#${LOCAL_BASE_URL}#${OJS_BASE_URL}#g" \
-            | MYSQL_PWD="${DB_PASSWORD}" mysql -h "${DB_HOST}" -u "${DB_USER}" "${DB_NAME}"
+            | MYSQL_PWD="${DB_PASSWORD}" mysql -h "${DB_HOST}" -u "${DB_USER}" ${MYSQL_FLAGS} \
+                --default-character-set=utf8mb4 "${DB_NAME}"
         echo "[OJS] database import done"
     else
         echo "[OJS] no database dump found at ${SEED_DB_FILE}"
