@@ -98,4 +98,16 @@ mkdir -p /var/www/html/files /var/www/html/public /var/www/html/cache
 chown -R www-data:www-data /var/www/html/files /var/www/html/public /var/www/html/cache
 
 echo "[OJS] starting Apache"
+
+# Warm-up cache OJS supaya akses pertama setelah deploy tidak Blank/berat.
+# Cache OJS (compiled CSS, template cache) dibangun saat request pertama.
+(
+    WARMUP_HOST="$(echo "${OJS_BASE_URL}" | sed -E 's#^https?://([^/:]+).*#\1#')"
+    for i in 1 2 3; do
+        sleep $((i * 4))
+        curl -s -o /dev/null -H "Host: ${WARMUP_HOST}" "http://127.0.0.1/index.php" || true
+    done
+    echo "[OJS] cache warm-up selesai"
+) &
+
 exec /usr/local/bin/pkp-start
