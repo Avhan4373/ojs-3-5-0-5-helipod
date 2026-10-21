@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE version SYSTEM "../../../lib/pkp/dtd/pluginVersion.dtd">
+
+<!--
+  * plugins/themes/academic/version.xml
+  *
+  * Academic theme for OJS 3.5
+  * Port of the "Academic Theme for OJS 3.3" (Bootstrap 5.3) to Open Journal
+  * Systems 3.5.
+  *
+  * Distributed under the GNU GPL v3.
+  -->
+
+<version>
+	<application>academic</application>
+	<type>plugins.themes</type>
+	<release>1.0.0.0</release>
+	<date>2026-10-21</date>
+	<lazy-load>1</lazy-load>
+	<class>AcademicThemePlugin</class>
+</version>

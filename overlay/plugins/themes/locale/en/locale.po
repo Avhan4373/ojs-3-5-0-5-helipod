@@ -1,0 +1,283 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: academic\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-21 00:00+0000\n"
+"PO-Revision-Date: 2026-10-21 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "plugins.themes.academic.name"
+msgstr "Academic Theme"
+
+msgid "plugins.themes.academic.description"
+msgstr "A modern Bootstrap 5 journal theme with a top bar, sticky navigation, hero section, journal statistics, a 12-month usage chart and card based article lists."
+
+msgid "plugins.themes.academic.option.colourScheme.label"
+msgstr "Colour scheme"
+
+msgid "plugins.themes.academic.option.colourScheme.description"
+msgstr "Choose the primary colour used across the theme."
+
+msgid "plugins.themes.academic.option.colourScheme.emerald"
+msgstr "Emerald"
+
+msgid "plugins.themes.academic.option.colourScheme.indigo"
+msgstr "Indigo"
+
+msgid "plugins.themes.academic.option.colourScheme.teal"
+msgstr "Teal"
+
+msgid "plugins.themes.academic.option.colourScheme.burgundy"
+msgstr "Burgundy"
+
+msgid "plugins.themes.academic.option.colourScheme.slate"
+msgstr "Slate"
+
+msgid "plugins.themes.academic.option.headerStyle.label"
+msgstr "Header style"
+
+msgid "plugins.themes.academic.option.headerStyle.description"
+msgstr "Choose how the journal header (logo and title) is displayed."
+
+msgid "plugins.themes.academic.option.headerStyle.light"
+msgstr "Light"
+
+msgid "plugins.themes.academic.option.headerStyle.dark"
+msgstr "Dark"
+
+msgid "plugins.themes.academic.option.headerStyle.colored"
+msgstr "Coloured"
+
+msgid "plugins.themes.academic.option.typography.label"
+msgstr "Typography"
+
+msgid "plugins.themes.academic.option.typography.description"
+msgstr "Choose the font pair used for body text and headings."
+
+msgid "plugins.themes.academic.option.typography.inter"
+msgstr "Inter (sans-serif)"
+
+msgid "plugins.themes.academic.option.typography.lora"
+msgstr "Inter + Lora (serif headings)"
+
+msgid "plugins.themes.academic.option.typography.merriweather"
+msgstr "Inter + Merriweather (editorial headings)"
+
+msgid "plugins.themes.academic.option.typography.roboto"
+msgstr "Roboto"
+
+msgid "plugins.themes.academic.option.showStats.label"
+msgstr "Homepage statistics"
+
+msgid "plugins.themes.academic.option.showStats.description"
+msgstr "Show the journal statistics cards on the homepage."
+
+msgid "plugins.themes.academic.option.showStats.option"
+msgstr "Show statistics cards"
+
+msgid "plugins.themes.academic.option.showChart.label"
+msgstr "Usage chart"
+
+msgid "plugins.themes.academic.option.showChart.description"
+msgstr "Show the 12-month views and downloads chart below the homepage."
+
+msgid "plugins.themes.academic.option.showChart.option"
+msgstr "Show usage chart"
+
+msgid "plugins.themes.academic.option.showAboutCover.label"
+msgstr "Homepage hero"
+
+msgid "plugins.themes.academic.option.showAboutCover.description"
+msgstr "Show the journal description and journal cover at the top of the homepage."
+
+msgid "plugins.themes.academic.option.showAboutCover.option"
+msgstr "Show the about/cover hero"
+
+msgid "plugins.themes.academic.option.footerCredit.label"
+msgstr "Footer credit"
+
+msgid "plugins.themes.academic.option.footerCredit.description"
+msgstr "Optional credit line displayed at the bottom right of the footer."
+
+msgid "plugins.themes.academic.aboutJournal"
+msgstr "About the Journal"
+
+msgid "plugins.themes.academic.journalCover"
+msgstr "Journal Cover"
+
+msgid "plugins.themes.academic.publishedArticles"
+msgstr "Published Articles"
+
+msgid "plugins.themes.academic.contributorAuthors"
+msgstr "Contributor Authors"
+
+msgid "plugins.themes.academic.publishedIssues"
+msgstr "Published Issues"
+
+msgid "plugins.themes.academic.totalDownloads"
+msgstr "Total Downloads"
+
+msgid "plugins.themes.academic.publishedIssuesSub"
+msgstr "Issues Published"
+
+msgid "plugins.themes.academic.totalDownloadsSub"
+msgstr "Total Article Downloads"
+
+msgid "plugins.themes.academic.views"
+msgstr "Views"
+
+msgid "plugins.themes.academic.downloads"
+msgstr "Downloads"
+
+msgid "plugins.themes.academic.chartTitle"
+msgstr "Views & Downloads (Last 12 Months)"
+
+msgid "plugins.themes.academic.chartDescription"
+msgstr "Monthly comparison of abstract views and PDF downloads."
+
+msgid "plugins.themes.academic.totalViews12"
+msgstr "Total Views (12 Mo)"
+
+msgid "plugins.themes.academic.totalDownloads12"
+msgstr "Total Downloads (12 Mo)"
+
+msgid "plugins.themes.academic.chartEmpty"
+msgstr "Usage statistics will appear here once the journal has been visited and its articles downloaded."
+
+msgid "plugins.themes.academic.filterAll"
+msgstr "All"
+
+msgid "plugins.themes.academic.filterViews"
+msgstr "Views"
+
+msgid "plugins.themes.academic.filterDownloads"
+msgstr "Downloads"
+
+msgid "plugins.themes.academic.search"
+msgstr "Search..."
+
+msgid "plugins.themes.academic.openMenu"
+msgstr "Menu"
+
+msgid "plugins.themes.academic.toggleNavigation"
+msgstr "Toggle navigation"
+
+msgid "plugins.themes.academic.backToTop"
+msgstr "Back to Top"
+
+msgid "plugins.themes.academic.siteNavigation"
+msgstr "Site Navigation"
+
+msgid "plugins.themes.academic.publisher"
+msgstr "Publisher"
+
+msgid "plugins.themes.academic.publishedOn"
+msgstr "Published"
+
+msgid "plugins.themes.academic.pages"
+msgstr "Pages"
+
+msgid "plugins.themes.academic.currentIssue"
+msgstr "Current Issue"
+
+msgid "plugins.themes.academic.viewAllIssues"
+msgstr "View All Issues"
+
+msgid "plugins.themes.academic.aboutPublishingSystem"
+msgstr "This journal is published using Open Journal Systems (OJS), an open source journal management and publishing system developed by the Public Knowledge Project (PKP)."
+
+msgid "plugins.themes.academic.copyright"
+msgstr "All rights reserved."
+
+msgid "plugins.themes.academic.credit"
+msgstr "Academic Theme"
+
+msgid "plugins.themes.academic.viewJournal"
+msgstr "View Journal"
+
+msgid "plugins.themes.academic.sidebarTitle"
+msgstr "Main Menu"
+
+msgid "plugins.themes.academic.sidebar.focusScope"
+msgstr "Focus and Scope"
+
+msgid "plugins.themes.academic.sidebar.editorialTeam"
+msgstr "Editorial Team"
+
+msgid "plugins.themes.academic.sidebar.reviewer"
+msgstr "Reviewer"
+
+msgid "plugins.themes.academic.sidebar.publicationEthics"
+msgstr "Publication Ethics"
+
+msgid "plugins.themes.academic.sidebar.publicationProcess"
+msgstr "Publication Process"
+
+msgid "plugins.themes.academic.sidebar.peerReviewProcess"
+msgstr "Peer Review Process"
+
+msgid "plugins.themes.academic.sidebar.openAccessStatement"
+msgstr "Open Access Statement"
+
+msgid "plugins.themes.academic.sidebar.copyrightLicense"
+msgstr "Copyright and License"
+
+msgid "plugins.themes.academic.sidebar.plagiarism"
+msgstr "Plagiarism"
+
+msgid "plugins.themes.academic.sidebar.indexing"
+msgstr "Indexing"
+
+msgid "plugins.themes.academic.sidebar.authorGuidelines"
+msgstr "Author Guidelines"
+
+msgid "plugins.themes.academic.sidebar.archivePolicy"
+msgstr "Archive Policy"
+
+msgid "plugins.themes.academic.sidebar.authorFees"
+msgstr "Author Fees"
+
+msgid "plugins.themes.academic.sidebar.contactUs"
+msgstr "Contact Us"
+
+msgid "plugins.themes.academic.articleStatistics"
+msgstr "Article Statistics & Metrics"
+
+msgid "plugins.themes.academic.abstractViews"
+msgstr "Abstract Views"
+
+msgid "plugins.themes.academic.pdfDownloads"
+msgstr "PDF Downloads"
+
+msgid "plugins.themes.academic.dimensionsCitations"
+msgstr "Dimensions Citations"
+
+msgid "plugins.themes.academic.copyCitation"
+msgstr "Copy Citation"
+
+msgid "plugins.themes.academic.shareArticle"
+msgstr "Share this article"
+
+msgid "plugins.themes.academic.auth.account"
+msgstr "Account"
+
+msgid "plugins.themes.academic.auth.privacyOptions"
+msgstr "Privacy Options"
+
+msgid "plugins.themes.academic.auth.reviewer"
+msgstr "Reviewer"
+
+msgid "plugins.themes.academic.auth.noAccount"
+msgstr "Don't have an account?"
+
+msgid "plugins.themes.academic.auth.haveAccount"
+msgstr "Already have an account?"
+
+msgid "plugins.themes.academic.auth.passwordToggle"
+msgstr "Show or hide password"

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE version SYSTEM "../../../lib/pkp/dtd/pluginVersion.dtd">
+
+<!--
+  * plugins/blocks/sidebarCards/version.xml
+  *
+  * Sidebar Cards block for OJS 3.5.
+  * Adds configurable sidebar cards (Chat Us, Journal Template,
+  * Recommended Tools, Popular Articles and custom cards).
+  *
+  * Distributed under the GNU GPL v3.
+  -->
+
+<version>
+	<application>sidebarCards</application>
+	<type>plugins.blocks</type>
+	<release>1.0.0.0</release>
+	<date>2026-10-21</date>
+	<lazy-load>1</lazy-load>
+	<class>SidebarCardsBlockPlugin</class>
+</version>

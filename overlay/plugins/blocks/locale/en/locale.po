@@ -1,0 +1,133 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+
+msgid "plugins.block.sidebarCards.displayName"
+msgstr "Sidebar Cards"
+
+msgid "plugins.block.sidebarCards.description"
+msgstr "Adds configurable sidebar cards for Chat Us, Journal Template, Recommended Tools, Popular Articles and custom cards."
+
+msgid "plugins.block.sidebarCards.settingsIntro"
+msgstr "Manage the cards shown in the journal sidebar. Cards are rendered below the main menu."
+
+msgid "plugins.block.sidebarCards.section.chat"
+msgstr "Chat Us"
+
+msgid "plugins.block.sidebarCards.section.chatHint"
+msgstr "A contact card for WhatsApp, Telegram or another chat channel."
+
+msgid "plugins.block.sidebarCards.section.template"
+msgstr "Journal Template"
+
+msgid "plugins.block.sidebarCards.section.templateHint"
+msgstr "A download card for the manuscript template."
+
+msgid "plugins.block.sidebarCards.section.tools"
+msgstr "Recommended Tools"
+
+msgid "plugins.block.sidebarCards.section.toolsHint"
+msgstr "A grid of writing, reference and plagiarism-checking tools."
+
+msgid "plugins.block.sidebarCards.section.popular"
+msgstr "Popular Article"
+
+msgid "plugins.block.sidebarCards.section.popularHint"
+msgstr "Automatically lists the most viewed published articles using OJS statistics."
+
+msgid "plugins.block.sidebarCards.section.custom"
+msgstr "Custom Cards"
+
+msgid "plugins.block.sidebarCards.section.customHint"
+msgstr "Add any other card. Content accepts basic HTML."
+
+msgid "plugins.block.sidebarCards.section.display"
+msgstr "Display"
+
+msgid "plugins.block.sidebarCards.enabled"
+msgstr "Show this card"
+
+msgid "plugins.block.sidebarCards.field.title"
+msgstr "Title"
+
+msgid "plugins.block.sidebarCards.field.url"
+msgstr "Link URL"
+
+msgid "plugins.block.sidebarCards.field.image"
+msgstr "Image URL"
+
+msgid "plugins.block.sidebarCards.field.description"
+msgstr "Description"
+
+msgid "plugins.block.sidebarCards.field.content"
+msgstr "Content (HTML allowed)"
+
+msgid "plugins.block.sidebarCards.field.popularCount"
+msgstr "Number of articles"
+
+msgid "plugins.block.sidebarCards.tools.item"
+msgstr "Tool"
+
+msgid "plugins.block.sidebarCards.tools.add"
+msgstr "Add tool"
+
+msgid "plugins.block.sidebarCards.custom.item"
+msgstr "Custom card"
+
+msgid "plugins.block.sidebarCards.custom.add"
+msgstr "Add custom card"
+
+msgid "plugins.block.sidebarCards.remove"
+msgstr "Remove"
+
+msgid "plugins.block.sidebarCards.display.all"
+msgstr "All pages"
+
+msgid "plugins.block.sidebarCards.display.home"
+msgstr "Homepage only"
+
+msgid "plugins.block.sidebarCards.upload.uploading"
+msgstr "Uploading..."
+
+msgid "plugins.block.sidebarCards.upload.success"
+msgstr "Uploaded"
+
+msgid "plugins.block.sidebarCards.button.chat"
+msgstr "Chat with us"
+
+msgid "plugins.block.sidebarCards.button.template"
+msgstr "Download template"
+
+msgid "plugins.block.sidebarCards.button.more"
+msgstr "Read more"
+
+msgid "plugins.block.sidebarCards.popular.empty"
+msgstr "No article statistics are available yet."
+
+msgid "plugins.block.sidebarCards.default.chatDescription"
+msgstr "Need help? Our editorial team is ready to assist you."
+
+msgid "plugins.block.sidebarCards.default.templateDescription"
+msgstr "Download the manuscript template before submitting your article."
+
+msgid "plugins.block.sidebarCards.error.csrf"
+msgstr "Your session has expired. Please reload the page and try again."
+
+msgid "plugins.block.sidebarCards.error.noContext"
+msgstr "This plugin must be configured from a journal."
+
+msgid "plugins.block.sidebarCards.error.upload"
+msgstr "The image could not be uploaded."
+
+msgid "plugins.block.sidebarCards.error.uploadSize"
+msgstr "The image is too large. The maximum size is 4 MB."
+
+msgid "plugins.block.sidebarCards.error.uploadType"
+msgstr "Unsupported image type. Use JPG, PNG, GIF or WebP."

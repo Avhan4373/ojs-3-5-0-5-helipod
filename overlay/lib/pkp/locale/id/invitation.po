@@ -1,0 +1,404 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OJS 3.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-21 00:00+0700\n"
+"Last-Translator: \n"
+"Language-Team: Indonesian\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: \n"
+
+msgid "invitation.userRoleAssignment.validation.error.addUserRoles.notExisting"
+msgstr "Setidaknya satu grup pengguna yang akan ditambahkan harus ditentukan"
+
+msgid "invitation.userRoleAssignment.validation.error.addUserRoles.userGroupAssignedToUser"
+msgstr "Grup pengguna tersebut sudah ditugaskan kepada pengguna yang diundang"
+
+msgid "invitation.userRoleAssignment.validation.error.removeUserRoles.notExisting"
+msgstr "Setidaknya satu grup pengguna yang akan dihapus harus ditentukan"
+
+msgid "invitation.userRoleAssignment.validation.error.removeUserRoles.cantRemoveFromNonExistingUser"
+msgstr "Peran pengguna yang akan dihapus tidak dapat ditentukan untuk pengguna yang tidak ada."
+
+msgid "invitation.userRoleAssignment.validation.error.noUserGroupChanges"
+msgstr "Undangan tidak dapat dikirim karena Anda belum menentukan perubahan grup pengguna"
+
+msgid "invitation.userRoleAssignment.validation.error.addUserRoles.duplicateUserGroupId"
+msgstr "Grup pengguna yang diberikan berisi entri duplikat."
+
+msgid "invitation.userRoleAssignment.validation.error.username.alreadyExisting"
+msgstr "Sudah ada pengguna dengan nama pengguna {$username}. Coba nama lain."
+
+msgid "invitation.userRoleAssignment.validation.error.user.mustExist"
+msgstr "Jika undangan memiliki ID pengguna ({$userId}), pengguna terkait harus ada."
+
+msgid "invitation.userRoleAssignment.validation.error.user.emailMustNotExist"
+msgstr "Jika undangan memiliki email ({$email}), email tersebut tidak boleh digunakan oleh pengguna lain."
+
+msgid "invitation.userRoleAssignment.validation.error.username.mandatory"
+msgstr "Nama pengguna harus diisi"
+
+msgid "invitation.userRoleAssignment.validation.error.password.mandatory"
+msgstr "Kata sandi harus diisi"
+
+msgid "invitation.userRoleAssignment.validation.error.affiliation.mandatory"
+msgstr "Afiliasi harus diisi"
+
+msgid "invitation.userRoleAssignment.validation.error.country.mandatory"
+msgstr "Negara harus diisi"
+
+msgid "invitation.userRoleAssignment.validation.error.givenName.mandatory"
+msgstr "Nama depan harus diisi"
+
+msgid "invitation.userRoleAssignment.validation.error.familyName.mandatory"
+msgstr "Nama belakang harus diisi"
+
+msgid "invitation.userRoleAssignment.validation.error.addUserRoles.userGroupIdMandatory"
+msgstr "Untuk grup pengguna yang ditambahkan, ID grup pengguna harus diisi"
+
+msgid "invitation.userRoleAssignment.validation.error.addUserRoles.dateStartMandatory"
+msgstr "Untuk grup pengguna yang ditambahkan, tanggal mulai harus diisi"
+
+msgid "invitation.userRoleAssignment.validation.error.addUserRoles.mastheadMandatory"
+msgstr "Untuk grup pengguna yang ditambahkan, status masthead harus diisi"
+
+msgid "invitation.api.error.invitationTypeNotHasMailable"
+msgstr "Jenis undangan ini tidak memiliki mailable yang ditentukan"
+
+msgid "invitation.api.error.operationFailed"
+msgstr "Operasi undangan ini gagal"
+
+msgid "invitation.userRoleAssignment.validation.error.addUserRoles.userGroupNotExisting"
+msgstr "ID grup pengguna {$userGroupId} yang diberikan tidak ada"
+
+msgid "invitation.validation.required"
+msgstr "Kolom {$attribute} wajib diisi."
+
+msgid "invitation.userRoleAssignment.validation.error.userRoles.unexpectedProperties"
+msgstr "Properti tak terduga ditemukan pada item di indeks {$attribute}: {$properties}."
+
+msgid "invitation.reviewerAccess.validation.error.reviewAssignmentId.notExisting"
+msgstr "ID {reviewAssignmentId} tidak sesuai dengan penugasan review yang valid"
+
+msgid "invitation.api.error.invitationCantBeCanceled"
+msgstr "Undangan ini tidak dapat dibatalkan"
+
+msgid "invitation.api.error.initialization.noUserIdAndEmailTogether"
+msgstr "Anda tidak dapat memberikan email dan userId secara bersamaan."
+
+msgid "invitation.userRoleAssignment.error.update.prohibitedForExistingUser"
+msgstr "Atribut ini tidak diizinkan untuk diakses oleh pengguna yang sudah ada"
+
+msgid "invitation.userRoleAssignment.error.update.prohibitedForNonExistingUser"
+msgstr "Atribut ini tidak diizinkan untuk diakses oleh pengguna yang belum ada"
+
+msgid "invitation.userRoleAssignment.userGroup.startDate.mustBeAfterToday"
+msgstr "Atribut ini harus bernilai sama dengan atau setelah hari ini"
+
+msgid "invitation.validation.error.propertyProhibited"
+msgstr "Kolom :attribute dilarang"
+
+msgid "invitation.userRoleAssignment.validation.error.multilingual.primaryLocaleRequired"
+msgstr "Nilai untuk locale '{$primaryLocale}' wajib diisi"
+
+msgid "invitation.step"
+msgstr "LANGKAH"
+
+msgid "invitation.header"
+msgstr "Undangan"
+
+msgid "invitation.inviteToRole.btn"
+msgstr "Undang ke peran"
+
+msgid "invitation.wizard.pageTitle"
+msgstr "Undang pengguna untuk mengambil peran"
+
+msgid "userInvitation.enterDetailsLabel"
+msgstr "Masukkan detail"
+
+msgid "userInvitation.reviewAndInviteLabel"
+msgstr "Tinjau & undang untuk peran"
+
+msgid "userInvitation.searchUser.stepName"
+msgstr "Cari Pengguna"
+
+msgid "userInvitation.searchUser.stepLabel"
+msgstr "{$step} - Cari Pengguna"
+
+msgid "userInvitation.searchUser.nextButtonLabel"
+msgstr "Cari Pengguna"
+
+msgid "userInvitation.searchUser.stepDescription"
+msgstr "Jika pengguna belum ada, Anda dapat mengundangnya untuk mengambil peran. Jika pengguna sudah ada di sistem, Anda dapat melihat informasinya dan mengundangnya untuk mengambil peran tambahan."
+
+msgid "userInvitation.searchField.description"
+msgstr "mis. aeinstein@example.com atau aeinstein atau 0000-0002-1825-0097"
+
+msgid "userInvitation.enterDetails.stepName"
+msgstr "Masukkan detail"
+
+msgid "userInvitation.enterDetails.stepLabel"
+msgstr "{$step} - Masukkan detail dan undang untuk peran"
+
+msgid "userInvitation.enterDetails.nextButtonLabel"
+msgstr "Simpan dan Lanjutkan"
+
+msgid "invitation.role.selectRole"
+msgstr "Pilih peran baru"
+
+msgid "invitation.role.dateStart"
+msgstr "Tanggal Mulai"
+
+msgid "invitation.role.dateEnd"
+msgstr "Tanggal Berakhir"
+
+msgid "invitation.role.addRole.button"
+msgstr "Tambah Peran Lain"
+
+msgid "userInvitation.roleTable.role"
+msgstr "Peran"
+
+msgid "userInvitation.roleTable.startDate"
+msgstr "Tanggal Mulai"
+
+msgid "userInvitation.roleTable.endDate"
+msgstr "Tanggal Berakhir"
+
+msgid "userInvitation.sendMail.stepName"
+msgstr "Tinjau & undang untuk peran"
+
+msgid "userInvitation.sendMail.nextButtonLabel"
+msgstr "Undang pengguna ke peran"
+
+msgid "userInvitation.sendMail.stepLabel"
+msgstr "{$step} - Ubah email yang dibagikan kepada pengguna"
+
+msgid "userInvitation.modal.title"
+msgstr "Undangan Terkirim"
+
+msgid "userInvitation.modal.button"
+msgstr "Lihat Semua Pengguna"
+
+msgid "invitation.role.removeRole.button"
+msgstr "Hapus Peran"
+
+msgid "invitation.email.description"
+msgstr "mis. aeinstein@example.com"
+
+msgid "invitation.orcid.description"
+msgstr "Setelah menerima undangan, pengguna akan diarahkan ke ORCID untuk memverifikasi akunnya, jika mereka ingin."
+
+msgid "invitation.givenName.description"
+msgstr "Jika Anda mengetahui nama depan pengguna, Anda dapat memasukkan informasinya. Namun, informasi ini dapat diubah oleh pengguna."
+
+msgid "invitation.familyName.description"
+msgstr "Jika Anda mengetahui nama belakang pengguna, Anda dapat memasukkan informasinya. Namun, informasi ini dapat diubah oleh pengguna."
+
+msgid "invitation.decline.confirm"
+msgstr "Konfirmasi Tolak Undangan"
+
+msgid "invitation.decline.confirm.title"
+msgstr "Tolak Undangan"
+
+msgid "invitation.decline.confirm.description"
+msgstr "Apakah Anda yakin ingin menolak undangan ini? Konfirmasi penolakan dengan mengklik tombol di bawah."
+
+msgid "acceptInvitation.verifyOrcid.stepName"
+msgstr "Verifikasi ORCID iD"
+
+msgid "acceptInvitation.verifyOrcid.stepLabel"
+msgstr "{$step} - Verifikasi ORCID iD"
+
+msgid "acceptInvitation.verifyOrcid.nextButtonLabel"
+msgstr "Simpan dan lanjutkan"
+
+msgid "acceptInvitation.accountDetails.nextButtonLabel"
+msgstr "Simpan dan lanjutkan"
+
+msgid "acceptInvitation.userDetails.stepName"
+msgstr "Masukkan detail"
+
+msgid "acceptInvitation.userDetails.stepLabel"
+msgstr "{$step} - Masukkan detail"
+
+msgid "acceptInvitation.userDetails.stepDescription"
+msgstr "Masukkan detail Anda seperti ID email, afiliasi, dll. Sesuai kepatuhan GDPR, informasi ini hanya dapat diubah oleh Anda. Anda juga dapat memilih apakah informasi ini ingin ditampilkan di profil Anda kepada editor."
+
+msgid "acceptInvitation.userDetails.nextButtonLabel"
+msgstr "Simpan dan lanjutkan"
+
+msgid "acceptInvitation.userDetails.form.name"
+msgstr "Formulir detail pengguna penerima undangan"
+
+msgid "acceptInvitation.userDetails.form.description"
+msgstr "Berikan detail berikut untuk membantu kami mengelola akun Anda"
+
+msgid "acceptInvitation.detailsReview.stepName"
+msgstr "Tinjau & buat akun"
+
+msgid "acceptInvitation.detailsReview.stepLabel"
+msgstr "{$step} - Tinjau & buat akun"
+
+msgid "acceptInvitation.skipVerifyOrcid"
+msgstr "Lewati verifikasi ORCID"
+
+msgid "acceptInvitation.verifyOrcid"
+msgstr "Verifikasi ORCID iD"
+
+msgid "acceptInvitation.usernameField.description"
+msgstr "Dapat berupa kombinasi huruf besar, huruf kecil, atau angka"
+
+msgid "acceptInvitation.passwordField.description"
+msgstr "Panjangnya minimal 6 karakter dan dapat berupa kombinasi huruf besar, huruf kecil, angka, dan simbol"
+
+msgid "acceptInvitation.privacyStatement.label"
+msgstr "Ya, saya setuju data saya dikumpulkan dan disimpan sesuai dengan {$url}"
+
+msgid "acceptInvitation.privacyStatement.btn"
+msgstr "Pernyataan Privasi"
+
+msgid "acceptInvitation.userDetailsForm.givenName.description"
+msgstr "Juga dikenal sebagai nama depan, yaitu bagian dari nama pribadi yang mengidentifikasi seseorang."
+
+msgid "acceptInvitation.userDetailsForm.familyName.description"
+msgstr "Nama keluarga atau nama belakang adalah bagian dari nama pribadi yang umumnya diwariskan dan menunjukkan keluarga seseorang."
+
+msgid "acceptInvitation.userDetailsForm.affiliation.description"
+msgstr "Ini adalah institusi tempat Anda berafiliasi"
+
+msgid "acceptInvitation.userDetailsForm.countryOfAffiliation.description"
+msgstr "Ini adalah negara tempat institusi yang Anda ikuti berada"
+
+msgid "acceptInvitation.userDetailsForm.countryOfAffiliation.label"
+msgstr "Negara afiliasi"
+
+msgid "acceptInvitation.review.accountDetails"
+msgstr "Detail Akun"
+
+msgid "acceptInvitation.review.userDetails"
+msgstr "Detail Pengguna"
+
+msgid "acceptInvitation.modal.button"
+msgstr "Lihat Semua Naskah"
+
+msgid "invitation.tableHeader.name"
+msgstr "Nama"
+
+msgid "invitation.searchForm.emptyError"
+msgstr "Berikan setidaknya satu kriteria pencarian."
+
+msgid "invitation.wizard.viewPageTitleDescription"
+msgstr "Anda sedang melihat detail pengguna {$name}"
+
+msgid "invitation.cancelInvite.actionName"
+msgstr "Batalkan Undangan"
+
+msgid "invitation.cancelInvite.title"
+msgstr "Batalkan Undangan"
+
+msgid "invitation.cancelInvite.message"
+msgstr "Membatalkan undangan yang dikirim kepada {$givenName} {$familyName} akan menonaktifkan tautan penerimaan yang dikirim melalui email. Berikut detail undangannya: "
+
+msgid "invitation.masthead.show"
+msgstr "Tampil di masthead"
+
+msgid "invitation.masthead.hidden"
+msgstr "Tidak tampil di masthead"
+
+msgid "invitation.role.modifyRole.button"
+msgstr "Ubah Peran"
+
+msgid "invitation.management.options"
+msgstr "Opsi pengelolaan undangan"
+
+msgid "userInvitation.cancel.message"
+msgstr "Apakah Anda yakin ingin membatalkan undangan ini?"
+
+msgid "userInvitation.cancel.goBack"
+msgstr "Kembali"
+
+msgid "userInvitation.status.invited"
+msgstr "Diundang {$date}"
+
+msgid "userInvitation.edit.title"
+msgstr "Ubah Undangan"
+
+msgid "userInvitation.edit.message"
+msgstr "Jika Anda mengubah undangan yang ada atau menambahkan peran baru, undangan saat ini akan dibatalkan dan undangan baru akan dikirim. Apakah Anda yakin ingin melanjutkan?"
+
+msgid "validation.after_or_equal"
+msgstr "Tanggal mulai harus lebih besar dari atau sama dengan hari ini"
+
+msgid "invitation.removeRoles"
+msgstr "Pengguna Dihapus dari Peran"
+
+msgid "acceptInvitation.privacyStatement.validation"
+msgstr "Harap konfirmasi bahwa Anda telah membaca dan menyetujui pernyataan privasi"
+
+msgid "acceptInvitation.cancel.message"
+msgstr "Apakah Anda yakin ingin membatalkan? Membatalkan sekarang akan menghentikan proses penerimaan peran, dan Anda harus memulai lagi dari email undangan untuk menerima peran tersebut. Jika Anda sudah menjadi pengguna, Anda akan diarahkan kembali ke dasbor. Jika belum, Anda harus membuka email undangan untuk memulai proses lagi."
+
+msgid "acceptInvitation.cancelInvite.title"
+msgstr "Batalkan Proses Undangan Peran?"
+
+msgid "acceptInvitation.cancelInvite.button"
+msgstr "Batalkan Proses Undangan"
+
+msgid "acceptInvitation.authorization.shouldBeAnonymous"
+msgstr "Undangan tidak diterima. Anda masuk sebagai pengguna yang berbeda."
+
+msgid "acceptInvitation.authorization.message"
+msgstr "Harap keluar dan masuk dengan akun yang benar untuk menerima undangan ini."
+
+msgid "userInvitation.searchField"
+msgstr "Cari pengguna berdasarkan alamat email, nama pengguna, atau ORCID iD. Masukkan salah satu untuk memulai!"
+
+msgid "userInvitation.user.disableTitle"
+msgstr "Pengguna saat ini dinonaktifkan."
+
+msgid "userInvitation.user.disableMessage"
+msgstr "Pengguna dinonaktifkan. Anda tidak dapat menetapkan peran saat pengguna dinonaktifkan. Aktifkan pengguna terlebih dahulu untuk mengundangnya ke peran."
+
+msgid "acceptInvitation.privacyConsent"
+msgstr "Persetujuan Privasi"
+
+msgid "invitation.unavailable.title"
+msgstr "Undangan Tidak Tersedia"
+
+msgid "invitation.unavailable.description"
+msgstr "Undangan ini sudah tidak tersedia. Undangan mungkin sudah diterima, ditolak, atau kedaluwarsa. Hubungi pengelola jurnal untuk bantuan lebih lanjut."
+
+msgid "acceptInvitation.modal.title"
+msgstr "Undangan Diterima"
+
+msgid "acceptInvitation.modal.message"
+msgstr "Akun Anda telah dibuat. Silakan masuk untuk melanjutkan."
+
+msgid "invitation.orcid.acceptInvitation.message"
+msgstr "Terima undangan untuk menghubungkan ORCID iD Anda."
+
+msgid "invitation.role.masthead"
+msgstr "Masthead"
+
+msgid "invitation.wizard.completeSteps"
+msgstr "Selesaikan langkah-langkah berikut untuk mengirim undangan."
+
+msgid "invitation.wizard.errors"
+msgstr "Perbaiki kesalahan berikut sebelum melanjutkan."
+
+msgid "userInvitation.modal.message"
+msgstr "Undangan telah berhasil dikirim."
+
+msgid "userInvitation.roleTable.journalMasthead"
+msgstr "Masthead jurnal"
+
+msgid "userInvitation.search.userFound"
+msgstr "Pengguna ditemukan."
+
+msgid "userInvitation.search.userNotFound"
+msgstr "Pengguna tidak ditemukan. Anda dapat mengundangnya untuk mengambil peran."

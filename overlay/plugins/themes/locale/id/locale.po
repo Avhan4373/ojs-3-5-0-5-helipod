@@ -1,0 +1,283 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: academic\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-21 00:00+0000\n"
+"PO-Revision-Date: 2026-10-21 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "plugins.themes.academic.name"
+msgstr "Tema Academic"
+
+msgid "plugins.themes.academic.description"
+msgstr "Tema jurnal Bootstrap 5 modern dengan top bar, navigasi lengket, hero, statistik jurnal, grafik penggunaan 12 bulan, dan daftar artikel berbentuk kartu."
+
+msgid "plugins.themes.academic.option.colourScheme.label"
+msgstr "Skema warna"
+
+msgid "plugins.themes.academic.option.colourScheme.description"
+msgstr "Pilih warna utama yang dipakai di seluruh tema."
+
+msgid "plugins.themes.academic.option.colourScheme.emerald"
+msgstr "Emerald"
+
+msgid "plugins.themes.academic.option.colourScheme.indigo"
+msgstr "Indigo"
+
+msgid "plugins.themes.academic.option.colourScheme.teal"
+msgstr "Teal"
+
+msgid "plugins.themes.academic.option.colourScheme.burgundy"
+msgstr "Burgundy"
+
+msgid "plugins.themes.academic.option.colourScheme.slate"
+msgstr "Slate"
+
+msgid "plugins.themes.academic.option.headerStyle.label"
+msgstr "Gaya header"
+
+msgid "plugins.themes.academic.option.headerStyle.description"
+msgstr "Pilih tampilan header jurnal (logo dan judul)."
+
+msgid "plugins.themes.academic.option.headerStyle.light"
+msgstr "Terang"
+
+msgid "plugins.themes.academic.option.headerStyle.dark"
+msgstr "Gelap"
+
+msgid "plugins.themes.academic.option.headerStyle.colored"
+msgstr "Berwarna"
+
+msgid "plugins.themes.academic.option.typography.label"
+msgstr "Tipografi"
+
+msgid "plugins.themes.academic.option.typography.description"
+msgstr "Pilih pasangan font untuk teks isi dan judul."
+
+msgid "plugins.themes.academic.option.typography.inter"
+msgstr "Inter (sans-serif)"
+
+msgid "plugins.themes.academic.option.typography.lora"
+msgstr "Inter + Lora (judul serif)"
+
+msgid "plugins.themes.academic.option.typography.merriweather"
+msgstr "Inter + Merriweather (judul editorial)"
+
+msgid "plugins.themes.academic.option.typography.roboto"
+msgstr "Roboto"
+
+msgid "plugins.themes.academic.option.showStats.label"
+msgstr "Statistik halaman depan"
+
+msgid "plugins.themes.academic.option.showStats.description"
+msgstr "Tampilkan kartu statistik jurnal di halaman depan."
+
+msgid "plugins.themes.academic.option.showStats.option"
+msgstr "Tampilkan kartu statistik"
+
+msgid "plugins.themes.academic.option.showChart.label"
+msgstr "Grafik penggunaan"
+
+msgid "plugins.themes.academic.option.showChart.description"
+msgstr "Tampilkan grafik kunjungan dan unduhan 12 bulan di bawah halaman depan."
+
+msgid "plugins.themes.academic.option.showChart.option"
+msgstr "Tampilkan grafik penggunaan"
+
+msgid "plugins.themes.academic.option.showAboutCover.label"
+msgstr "Hero halaman depan"
+
+msgid "plugins.themes.academic.option.showAboutCover.description"
+msgstr "Tampilkan deskripsi jurnal dan sampul jurnal di bagian atas halaman depan."
+
+msgid "plugins.themes.academic.option.showAboutCover.option"
+msgstr "Tampilkan hero tentang/sampul"
+
+msgid "plugins.themes.academic.option.footerCredit.label"
+msgstr "Kredit footer"
+
+msgid "plugins.themes.academic.option.footerCredit.description"
+msgstr "Baris kredit opsional di bagian kanan bawah footer."
+
+msgid "plugins.themes.academic.aboutJournal"
+msgstr "Tentang Jurnal"
+
+msgid "plugins.themes.academic.journalCover"
+msgstr "Sampul Jurnal"
+
+msgid "plugins.themes.academic.publishedArticles"
+msgstr "Artikel Terbit"
+
+msgid "plugins.themes.academic.contributorAuthors"
+msgstr "Penulis Kontributor"
+
+msgid "plugins.themes.academic.publishedIssues"
+msgstr "Jumlah Terbitan"
+
+msgid "plugins.themes.academic.totalDownloads"
+msgstr "Total Unduhan"
+
+msgid "plugins.themes.academic.publishedIssuesSub"
+msgstr "Terbitan Diterbitkan"
+
+msgid "plugins.themes.academic.totalDownloadsSub"
+msgstr "Unduhan Artikel"
+
+msgid "plugins.themes.academic.views"
+msgstr "Dilihat"
+
+msgid "plugins.themes.academic.downloads"
+msgstr "Unduhan"
+
+msgid "plugins.themes.academic.chartTitle"
+msgstr "Kunjungan & Unduhan (12 Bulan Terakhir)"
+
+msgid "plugins.themes.academic.chartDescription"
+msgstr "Perbandingan bulanan kunjungan abstrak dan unduhan PDF."
+
+msgid "plugins.themes.academic.totalViews12"
+msgstr "Total Kunjungan (12 Bln)"
+
+msgid "plugins.themes.academic.totalDownloads12"
+msgstr "Total Unduhan (12 Bln)"
+
+msgid "plugins.themes.academic.chartEmpty"
+msgstr "Statistik penggunaan akan muncul di sini setelah jurnal dikunjungi dan artikelnya diunduh."
+
+msgid "plugins.themes.academic.filterAll"
+msgstr "Semua"
+
+msgid "plugins.themes.academic.filterViews"
+msgstr "Kunjungan"
+
+msgid "plugins.themes.academic.filterDownloads"
+msgstr "Unduhan"
+
+msgid "plugins.themes.academic.search"
+msgstr "Cari..."
+
+msgid "plugins.themes.academic.openMenu"
+msgstr "Menu"
+
+msgid "plugins.themes.academic.toggleNavigation"
+msgstr "Buka/tutup navigasi"
+
+msgid "plugins.themes.academic.backToTop"
+msgstr "Kembali ke Atas"
+
+msgid "plugins.themes.academic.siteNavigation"
+msgstr "Navigasi Situs"
+
+msgid "plugins.themes.academic.publisher"
+msgstr "Penerbit"
+
+msgid "plugins.themes.academic.publishedOn"
+msgstr "Terbit"
+
+msgid "plugins.themes.academic.pages"
+msgstr "Halaman"
+
+msgid "plugins.themes.academic.currentIssue"
+msgstr "Terbitan Terkini"
+
+msgid "plugins.themes.academic.viewAllIssues"
+msgstr "Lihat Semua Terbitan"
+
+msgid "plugins.themes.academic.aboutPublishingSystem"
+msgstr "Jurnal ini diterbitkan menggunakan Open Journal Systems (OJS), sistem manajemen dan penerbitan jurnal sumber terbuka yang dikembangkan oleh Public Knowledge Project (PKP)."
+
+msgid "plugins.themes.academic.copyright"
+msgstr "Seluruh hak cipta dilindungi."
+
+msgid "plugins.themes.academic.credit"
+msgstr "Tema Academic"
+
+msgid "plugins.themes.academic.viewJournal"
+msgstr "Lihat Jurnal"
+
+msgid "plugins.themes.academic.sidebarTitle"
+msgstr "Menu Utama"
+
+msgid "plugins.themes.academic.sidebar.focusScope"
+msgstr "Fokus dan Ruang Lingkup"
+
+msgid "plugins.themes.academic.sidebar.editorialTeam"
+msgstr "Tim Editorial"
+
+msgid "plugins.themes.academic.sidebar.reviewer"
+msgstr "Reviewer"
+
+msgid "plugins.themes.academic.sidebar.publicationEthics"
+msgstr "Etika Publikasi"
+
+msgid "plugins.themes.academic.sidebar.publicationProcess"
+msgstr "Proses Publikasi"
+
+msgid "plugins.themes.academic.sidebar.peerReviewProcess"
+msgstr "Proses Peer Review"
+
+msgid "plugins.themes.academic.sidebar.openAccessStatement"
+msgstr "Pernyataan Akses Terbuka"
+
+msgid "plugins.themes.academic.sidebar.copyrightLicense"
+msgstr "Hak Cipta dan Lisensi"
+
+msgid "plugins.themes.academic.sidebar.plagiarism"
+msgstr "Plagiarisme"
+
+msgid "plugins.themes.academic.sidebar.indexing"
+msgstr "Indeksasi"
+
+msgid "plugins.themes.academic.sidebar.authorGuidelines"
+msgstr "Pedoman Penulis"
+
+msgid "plugins.themes.academic.sidebar.archivePolicy"
+msgstr "Kebijakan Arsip"
+
+msgid "plugins.themes.academic.sidebar.authorFees"
+msgstr "Biaya Penulis"
+
+msgid "plugins.themes.academic.sidebar.contactUs"
+msgstr "Hubungi Kami"
+
+msgid "plugins.themes.academic.articleStatistics"
+msgstr "Statistik & Metrik Artikel"
+
+msgid "plugins.themes.academic.abstractViews"
+msgstr "Tampilan Abstrak"
+
+msgid "plugins.themes.academic.pdfDownloads"
+msgstr "Unduhan PDF"
+
+msgid "plugins.themes.academic.dimensionsCitations"
+msgstr "Sitasi Dimensions"
+
+msgid "plugins.themes.academic.copyCitation"
+msgstr "Salin Sitasi"
+
+msgid "plugins.themes.academic.shareArticle"
+msgstr "Bagikan artikel ini"
+
+msgid "plugins.themes.academic.auth.account"
+msgstr "Akun"
+
+msgid "plugins.themes.academic.auth.privacyOptions"
+msgstr "Opsi Privasi"
+
+msgid "plugins.themes.academic.auth.reviewer"
+msgstr "Reviewer"
+
+msgid "plugins.themes.academic.auth.noAccount"
+msgstr "Belum punya akun?"
+
+msgid "plugins.themes.academic.auth.haveAccount"
+msgstr "Sudah punya akun?"
+
+msgid "plugins.themes.academic.auth.passwordToggle"
+msgstr "Tampilkan atau sembunyikan kata sandi"
